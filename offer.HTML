@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="WERst.css" rel="stylesheet" type="text/css">
+<style>
+  body{
+    font-family:'Raleway',sans-serif;
+    font-weight: 400;
+    color:black;
+    letter-spacing: 1px;
+    background-color: aliceblue;
+  }
+  .container{
+      background-color:lavenderblush;
+      margin:200px;
+      box-shadow:11px;
+      display:grid;
+      grid-template-columns: 40% 60%;
+  }
+  .container-time{
+      background-color:mediumspringgreen;
+      padding:50px;
+      outline-offset: 30px;
+      text-align: center;
+  }
+    .heading{
+        font-size:35px;
+        text-transform: uppercase;
+    }
+    .heading-days{
+      color:aqua;
+       font-size: 35px;
+    }
+    .heading-phone{
+      font-size: 20px;
+    }
+    .container-form{
+        padding: 20px 0px;
+        margin: 0 auto;
+        color:black;
+    }
+    form{
+      display:grid;
+      grid-row-gap: 20px;
+    }
+    .form-field{
+      display:flex;
+      justify-content:space-between;
+
+    }
+    input,select{
+      pad:10px 15px;
+
+    }
+    .btn{
+        background-color: black;
+        color:aliceblue;
+        padding: 10px 20px;
+        border:none;
+        font-size:18px;
+        border-radius: 10px;
+        -webkit-border-radius:100px;
+        -moz-border-radius:100px;
+        -ms-border-radius:100px;
+        -o-border-radius:100px;
+        box-shadow: 7px 10px 12px  rgba(0, 0, 0, .1);
+        cursor: pointer;
+        transition: all.3s;
+        -webkit-border-radius:all .3s;
+        -moz-border-radius:all.3s;
+        -ms-border-radius:all.3s;
+        -o-border-radius:all.3s;
+
+    }
+    .btn:hover{
+      transform:scale(1.03);
+      -webkit-transform: scale(1.03);
+      -moz-transform:scale(1.03);
+    }
+    * {
+	box-sizing: border-box;
+  }
+  
+  * {
+  box-sizing: border-box;
+}
+
+.columns {
+  float: left;
+  width: 33.3%;
+  padding: 0%;
+}
+
+
+@media only screen and (max-width: 700px) {
+  .columns {
+    width: 100%;
+  }
+}
+
+</style>
+</head>
+<section class="header">
+  <nav>
+    <a href="C:\Users\bida21-117\OneDrive - Botswana Accountancy College\Documents\Desktop\WER MOVIES\index.html"><img src="LOGO.jpg"></a>
+    <div class="nav-links" id="nav-links">
+      <div class="nav-links">
+      <i class="fa fa-times"></i>
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="Movie.html">MOVIES</a></li>
+      <li><a href="offer.HTML">OFFERS</a></li>
+      <li><a href="THEATRE.html">THEATRE</a></li>
+      <li><a href="Catergories.html">CATEGORIES</a></li>
+      <li><a href="exprience.html">EXPRIENCE</a></li>
+    </ul>
+    </div>
+   
+      </nav>
+<body>
+  <div class="container">
+    <div class="container-time">
+      <h2 class="heading">Open Time</h2>
+      <h3 class="heading days">Monday-Friday</h3>
+      <p>7am-12pm (breakfast)</p>
+      <p>12am-10pm (lunch/dinner)</p>
+
+      <h2>Open Time</h2>
+      <h3>Saturday-Sunday</h3>
+      <p>9am-12pm </p>
+      <p>12pm-8pm </p>
+
+      <hr>
+
+      <h4 class="heading-phone">Call Us:(267) 7601-5560</h4>
+
+    </div>
+    <div class="container-form">
+      <form action="#">
+        <h2 class="heading heading yellow">Online Bookings </h2>
+
+          <div class="form-field">
+            <p>Your Name</p>
+            <input type="text" placeholder="Your Name">
+
+          </div>
+          <div class="form-field">
+            <p>Email</p>
+            <input type="text" placeholder="Email">
+            
+          </div>
+          <div class="form-field">
+            <p>Time</p>
+            <input type="text" placeholder="Time">
+            
+          </div>
+          <div class="form-field">
+            <p>Date</p>
+            <input type="text" placeholder="Date">
+            
+          </div>
+          <div class="form-field">
+            <p>How many people</p>
+            <select name="select" id="#">
+              <option value="1">1 persons</option>
+              <option value="2">2 persons</option>
+              <option value="3">3 persons</option>
+              <option value="4">4 persons</option>
+              <option value="5">5 persons</option>
+            </select>
+          </div>
+
+          <button class="btn">Submit</button>
+      </form>
+
+    </div>
+
+  </div>
+  
+
+
+</body>
+</html>
